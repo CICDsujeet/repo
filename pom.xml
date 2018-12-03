@@ -15,4 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+  <repository>
+    <id>CICD-releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://ec2-52-66-253-211.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/CICD-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>CICD-snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://ec2-52-66-253-211.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/CICD-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement
 </project>
