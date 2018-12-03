@@ -27,5 +27,5 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://ec2-52-66-253-211.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/CICD-snapshots/</url>
   </snapshotRepository>
-</distributionManagement
+  </distributionManagement>
 </project>
